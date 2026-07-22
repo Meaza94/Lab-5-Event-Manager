@@ -1,0 +1,111 @@
+/* Custom theme for the Event Manager Swagger UI - cleaner, easier to scan */
+
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f6f7f9;
+}
+
+/* Hide the default Swagger green topbar - our own title block below is enough */
+.swagger-ui .topbar {
+  display: none;
+}
+
+.swagger-ui .information-container {
+  padding: 24px 0 8px 0;
+}
+
+.swagger-ui .info {
+  margin: 0 0 24px 0;
+}
+
+.swagger-ui .info .title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.swagger-ui .info .description {
+  font-size: 15px;
+  color: #4a4a58;
+  max-width: 760px;
+  line-height: 1.5;
+}
+
+/* Card-style operation blocks with more breathing room */
+.swagger-ui .opblock {
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin: 0 0 14px 0;
+  border-width: 1px;
+}
+
+.swagger-ui .opblock .opblock-summary {
+  padding: 10px 14px;
+}
+
+.swagger-ui .opblock .opblock-summary-method {
+  border-radius: 6px;
+  font-weight: 700;
+  min-width: 80px;
+  text-align: center;
+}
+
+.swagger-ui .opblock .opblock-summary-path {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.swagger-ui .opblock .opblock-summary-description {
+  font-size: 13px;
+  color: #6b6b76;
+}
+
+/* Section headers ("Events") */
+.swagger-ui .opblock-tag {
+  font-size: 22px;
+  font-weight: 700;
+  border-bottom: 2px solid #e3e5e8;
+  padding: 10px 0;
+  color: #1a1a2e;
+}
+
+.swagger-ui .opblock-tag small {
+  font-size: 13px;
+  font-weight: 400;
+  color: #6b6b76;
+}
+
+/* Tighter, more legible parameter and response tables */
+.swagger-ui table {
+  font-size: 13px;
+}
+
+.swagger-ui .response-col_status {
+  font-weight: 700;
+}
+
+/* Buttons */
+.swagger-ui .btn.execute {
+  background-color: #2f6feb;
+  border-color: #2f6feb;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.swagger-ui .btn.try-out__btn {
+  border-radius: 6px;
+}
+
+/* Scheme / servers bar */
+.swagger-ui .scheme-container {
+  background: transparent;
+  box-shadow: none;
+  padding: 0 0 12px 0;
+}
+
+.swagger-ui .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

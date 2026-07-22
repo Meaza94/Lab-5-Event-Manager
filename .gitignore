@@ -1,0 +1,28 @@
+## .NET / Visual Studio .gitignore
+
+bin/
+obj/
+*.user
+.vs/
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+
+# Rider/VS Code
+.idea/
+.vscode/
+
+# NuGet
+*.nupkg
+**/packages/*
+
+# OS files
+.DS_Store
+Thumbs.db
